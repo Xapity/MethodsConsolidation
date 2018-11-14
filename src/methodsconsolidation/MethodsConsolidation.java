@@ -20,7 +20,7 @@ public class MethodsConsolidation {
     public static void main(String[] args) {
         int choice;        
         Scanner keyedInput = new Scanner(System.in); //scanner declared
-        System.out.println("Callum's Currency Converter\nWhat currency would you like to convert to canadian?\n1 = United States Dollar\n2 = Euro\n3 = British Pound\n4 = Russian Ruble\n5 = Bitcoin\nOther Keys Cloe The Program");
+        System.out.println("Callum's Currency Converter\nWhat currency would you like to convert to CAD?\n1 = United States Dollar\n2 = Euro\n3 = British Pound\n4 = Russian Ruble\n5 = Bitcoin\nOther Keys Cloe The Program");
         choice = keyedInput.nextInt();
         if (choice == 1){
             USD();
@@ -47,7 +47,7 @@ public class MethodsConsolidation {
         double usd;
         final double USD = 0.75551;
         Scanner keyedInput = new Scanner(System.in); //scanner declared
-        System.out.println("Inpout the amount USD you would like converted:");
+        System.out.println("Input the amount USD you would like converted:");
         input = keyedInput.nextInt();
         usd = input*USD;
         System.out.println("You have "+(usd)+"$CAD");
@@ -58,7 +58,7 @@ public class MethodsConsolidation {
         double euro;
         final double EURO = 0.67107;
         Scanner keyedInput = new Scanner(System.in); //scanner declared
-        System.out.println("Inpout the amount EUR you would like converted:");
+        System.out.println("Input the amount EUR you would like converted:");
         input = keyedInput.nextInt();
         euro = input*EURO;
         System.out.println("You have "+(euro)+"$CAD");
@@ -69,7 +69,7 @@ public class MethodsConsolidation {
         double pound;
         final double POUND = 0.58435;
         Scanner keyedInput = new Scanner(System.in); //scanner declared
-        System.out.println("Inpout the amount GBP you would like converted:");
+        System.out.println("Input the amount GBP you would like converted:");
         input = keyedInput.nextInt();
         pound = input*POUND;
         System.out.println("You have "+pound+"$CAD");
@@ -80,7 +80,7 @@ public class MethodsConsolidation {
         double ruble;
         final double RUBLE = 51.2320;
         Scanner keyedInput = new Scanner(System.in); //scanner declared
-        System.out.println("Inpout the amount RUB you would like converted:");
+        System.out.println("Input the amount RUB you would like converted:");
         input = keyedInput.nextInt();
         ruble = input*RUBLE;
         System.out.println("You have "+(ruble)+"$CAD");
@@ -91,7 +91,7 @@ public class MethodsConsolidation {
         double bitcoin;
         final double BITCOIN = 0.00012;
         Scanner keyedInput = new Scanner(System.in); //scanner declared
-        System.out.println("Inpout the amount BTC you would like converted:");
+        System.out.println("Input the amount BTC you would like converted:");
         input = keyedInput.nextInt();
         bitcoin = input*BITCOIN;
         System.out.println("You have "+(bitcoin)+"$CAD");
